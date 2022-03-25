@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/JoeUrso/new-project/issues"
     },
-    "homepage": "https://github.com/JoeUrso/new-project#readme"
+    "homepage": "https://github.com/JoeUrso/new-project#readme",
+    "devDependencies": {
+        "prettier": "^2.6.1"
+    }
 }
