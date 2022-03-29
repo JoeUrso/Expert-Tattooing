@@ -1,0 +1,157 @@
+@use "./_variables.scss" as *;
+
+// BREAKPOINTS
+@mixin mobile {
+    @media (min-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}
+
+// MOBILE FONT
+@mixin mobilePageHeader {
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+}
+
+@mixin mobileSubheader {
+    font-size: 2rem;
+    line-height: 1.75rem;
+}
+
+@mixin mobileCTA {
+    font-size: 1.75rem;
+    line-height: 1.25rem;
+}
+
+@mixin mobileBody {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+}
+
+@mixin mobileBodySmall {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+// TABLET FONT
+@mixin tabletPageHeader {
+    font-size: 4rem;
+    line-height: 2.25rem;
+}
+
+@mixin tabletSubheader {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+@mixin tabletCTA {
+    font-size: 2.5rem;
+    line-height: 1.25rem;
+}
+
+@mixin tabletBody {
+    font-size: 2rem;
+    line-height: 1.625rem;
+}
+
+@mixin tabletBodySmall {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+// DESKTOP FONT
+@mixin desktopPageHeader {
+    font-size: 8rem;
+    line-height: 2.25rem;
+}
+
+@mixin desktopSubheader {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+@mixin desktopCTA {
+    font-size: 2.5rem;
+    line-height: 1.25rem;
+}
+
+@mixin desktopBody {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+@mixin desktopBodySmall {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+// ANIMATIONS
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animate($animation, $duration, $method, $times) {
+    animation: $animation $duration $method $times;
+}
+
+// BUTTON
+@mixin mobileButton {
+    margin: 0 auto;
+    background: none;
+    border: 0.3125rem dashed black;
+    padding: 1rem;
+    @include mobileBody();
+    font-family: $graffiti-two;
+    color: $accent-color;
+    cursor: pointer;
+    @include mobileShadow();
+}
+
+@mixin tabletButton {
+    margin: 0rem auto 1.5rem;
+    background: none;
+    border: 0.4375rem dashed black;
+    padding: 1rem;
+    @include tabletBody();
+    font-family: $graffiti-two;
+    color: $accent-color;
+    cursor: pointer;
+    @include mobileShadow();
+}
+
+@mixin desktopButton {
+    margin: 0rem auto 3rem;
+    background: none;
+    border: 10px dashed black;
+    padding: 1rem;
+    @include desktopSubheader();
+    font-family: $graffiti-two;
+    color: $accent-color;
+    cursor: pointer;
+    @include desktopShadow();
+}
+
+// TEXT SHADOW
+@mixin mobileShadow {
+    text-shadow: 0 5.5px 0 $primary-color, 0 1px 0 $primary-color,
+        0 1.5px 0 $primary-color, 0 2px 0 $primary-color;
+}
+
+@mixin desktopShadow {
+    text-shadow: 0 11px 0 $primary-color, 0 2px 0 $primary-color,
+        0 3px 0 $primary-color, 0 4px 0 $primary-color;
+}
