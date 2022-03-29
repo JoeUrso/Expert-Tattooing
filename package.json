@@ -5,8 +5,9 @@
     "main": "index.js",
     "scripts": {
         "format": "prettier --write \"src/**/*.{js,jsx}\"",
-        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+        "lint": "eslint \"./client/src/**/*.{js,jsx,ts,tsx}\" --quiet",
         "dev": "parcel src/index.html",
+        "typecheck": "tsc --noEmit",
         "build": "parcel build",
         "start": "npm -s run build && node dist/backend/index.js"
     },
