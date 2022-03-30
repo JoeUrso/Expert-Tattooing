@@ -1,0 +1,35 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.header {
+    background-color: $primary-color;
+    display: flex;
+    gap: 35rem;
+
+    &__logo {
+        margin: 0;
+        color: $primary-text-color;
+
+        @include desktop {
+            @include desktopPageHeader;
+        }
+    }
+
+    &__nav-list {
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav-list-item {
+        color: $primary-text-color;
+
+        @include desktop {
+            @include desktopBody;
+        }
+    }
+}

@@ -8,7 +8,6 @@ const App = () => {
     return (
         <StrictMode>
             <BrowserRouter>
-                <h1>HEYYYYY</h1>
                 <Header />
                 {/* <Routes> */}
                 {/* <Route path="/details/:id" element={<Details />} /> */}
