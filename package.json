@@ -24,6 +24,7 @@
     "homepage": "https://github.com/JoeUrso/new-project#readme",
     "devDependencies": {
         "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@parcel/transformer-sass": "^2.4.0",
         "@types/react": "^17.0.39",
         "@types/react-dom": "^17.0.11",
         "@typescript-eslint/eslint-plugin": "^5.17.0",

@@ -1,18 +1,19 @@
 import { StrictMode } from "react";
 import { render } from "react-dom";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import "./App.scss";
+import Header from "./components/Header/Header";
 
 const App = () => {
     return (
         <StrictMode>
             <BrowserRouter>
-                {/* <header>
-                        <Link to="/">Adopt Me!</Link>
-                    </header> */}
-                <Routes>
-                    {/* <Route path="/details/:id" element={<Details />} /> */}
-                    {/* <Route path="/" element={<HomePage />} /> */}
-                </Routes>
+                <h1>HEYYYYY</h1>
+                <Header />
+                {/* <Routes> */}
+                {/* <Route path="/details/:id" element={<Details />} /> */}
+                {/* <Route path="/" element={<HomePage />} /> */}
+                {/* </Routes> */}
             </BrowserRouter>
         </StrictMode>
     );
