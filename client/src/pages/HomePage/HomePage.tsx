@@ -3,7 +3,7 @@ import React from "react";
 export default function HomePage() {
     return (
         <main>
-            <section></section>
+            <section>THIS IS A NEW SECTION</section>
         </main>
     );
 }
