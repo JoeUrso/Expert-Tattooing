@@ -10,7 +10,6 @@ const App = () => {
         <StrictMode>
             <BrowserRouter>
                 <Header />
-                <h1>HELLOO</h1>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                 </Routes>

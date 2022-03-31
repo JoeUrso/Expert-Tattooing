@@ -1,0 +1,29 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.homepage {
+    &__hero {
+        background-image: url("../../assets/images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__hero-text {
+        margin: 0;
+        color: $secondary-text-color;
+        font-family: "abril fatface";
+        vertical-align: middle;
+        text-shadow: 0.125rem 0.125rem 0.5rem black;
+
+        @include desktop {
+            @include desktopSubheader;
+        }
+    }
+}
