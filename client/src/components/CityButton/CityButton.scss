@@ -4,6 +4,11 @@
 @use "../../styles/partials/variables" as *;
 
 .city-button {
+    background-color: $secondary-color;
+    border-radius: 25%;
+    padding: 0.5rem;
+    color: $primary-text-color;
+
     @include desktop {
         @include desktopCTA;
     }
