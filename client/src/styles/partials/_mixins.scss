@@ -22,74 +22,80 @@
 // MOBILE FONT
 @mixin mobilePageHeader {
     font-size: 2.5rem;
-    line-height: 2.25rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin mobileSubheader {
     font-size: 2rem;
-    line-height: 1.75rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin mobileCTA {
     font-size: 1.75rem;
-    line-height: 1.25rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin mobileBody {
     font-size: 1.5rem;
-    line-height: 1.625rem;
+    font-family: "Source Sans Pro";
 }
 
 @mixin mobileBodySmall {
     font-size: 0.75rem;
-    line-height: 1rem;
+    font-family: "Source Sans Pro";
 }
 
 // TABLET FONT
 @mixin tabletPageHeader {
     font-size: 4rem;
-    line-height: 2.25rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin tabletSubheader {
     font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin tabletCTA {
     font-size: 2.5rem;
-    line-height: 1.25rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin tabletBody {
     font-size: 2rem;
-    line-height: 1.625rem;
+    font-family: "Source Sans Pro";
 }
 
 @mixin tabletBodySmall {
     font-size: 1.5rem;
-    line-height: 1.5rem;
+
+    font-family: "Source Sans Pro";
 }
 
 // DESKTOP FONT
 @mixin desktopPageHeader {
     font-size: 3rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin desktopSubheader {
     font-size: 2.5rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin desktopCTA {
     font-size: 2rem;
+    font-family: "Abril Fatface";
 }
 
 @mixin desktopBody {
     font-size: 1.5rem;
+    font-family: "Source Sans Pro";
 }
 
 @mixin desktopBodySmall {
     font-size: 1rem;
+    font-family: "Source Sans Pro";
 }
 
 // ANIMATIONS
