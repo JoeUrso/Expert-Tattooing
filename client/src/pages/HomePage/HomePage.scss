@@ -30,4 +30,11 @@
             @include desktopSubheader;
         }
     }
+
+    &__description-heading {
+        @include desktop {
+            @include desktopPageHeader;
+            color: $primary-text-color;
+        }
+    }
 }
