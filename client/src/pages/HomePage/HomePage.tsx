@@ -1,7 +1,10 @@
 import React from "react";
+import CityButton from "../../components/CityButton/CityButton";
 import "./HomePage.scss";
 
 export default function HomePage() {
+    const cities = ["New York", "Austin", "Los Angeles"];
+
     return (
         <main className="homepage">
             <section className="homepage__hero">
@@ -29,6 +32,11 @@ export default function HomePage() {
                     site is not for you. Looking for eagles, skulls, or roses?
                     Welcome, let's find you an expert.`}
                 </p>
+            </section>
+            <section className="homepage__cities">
+                {cities.map((city, index) => (
+                    <CityButton city={city} key={index} />
+                ))}
             </section>
         </main>
     );
