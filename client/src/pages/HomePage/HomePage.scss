@@ -5,7 +5,6 @@
 
 .homepage {
     background-color: $secondary-color;
-    height: 100vh;
 
     &__hero {
         background-image: url("../../assets/images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
@@ -22,19 +21,33 @@
     &__hero-text {
         margin: 0;
         color: $secondary-text-color;
-        font-family: "abril fatface";
         vertical-align: middle;
         text-shadow: 0.125rem 0.125rem 0.5rem black;
 
         @include desktop {
             @include desktopSubheader;
+            margin: auto 0.5rem;
         }
     }
 
+    &__description {
+        text-align: center;
+        margin: 0.5rem;
+    }
+
     &__description-heading {
+        color: $primary-text-color;
+
         @include desktop {
             @include desktopPageHeader;
-            color: $primary-text-color;
+        }
+    }
+
+    &__description-text {
+        color: $accent-text-color;
+
+        @include desktop {
+            @include desktopBody;
         }
     }
 }

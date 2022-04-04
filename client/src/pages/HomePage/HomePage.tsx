@@ -12,7 +12,7 @@ export default function HomePage() {
             </section>
             <section className="homepage__description">
                 <h1 className="homepage__description-heading">{`There's A Lot Going On`}</h1>
-                <p className="homepage__description-p1">
+                <p className="homepage__description-text">
                     {`Tattooing has grown rapidly over the last couple decades -
                     meaning more styles, more artists, and more tattoo parlours.
                     Maybe you think that's great, maybe you don't. Either way,
@@ -20,7 +20,7 @@ export default function HomePage() {
                     of tattooing deserves to be respected as a time tested,
                     badass, staple of the tattoo community.`}
                 </p>
-                <p className="homepage__description-p2">
+                <p className="homepage__description-text">
                     {`That's why we made Expert Tattooing. Our mission is to help
                     you find local tattoo artists who excel in the American
                     Traditional style. We want you to know you'll be spending
