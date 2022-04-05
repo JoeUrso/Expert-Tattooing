@@ -10,6 +10,8 @@
     padding: 0.5rem;
     color: $secondary-text-color;
     text-decoration: none;
+    flex-basis: 25%;
+    text-align: center;
 
     &:hover {
         text-decoration: underline;

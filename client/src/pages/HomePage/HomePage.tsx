@@ -33,6 +33,7 @@ export default function HomePage() {
                     Welcome, let's find you an expert.`}
                 </p>
             </section>
+            {/* TODO change index to id once you have server set up */}
             <section className="homepage__cities">
                 {cities.map((city, index) => (
                     <CityButton city={city} key={index} />
