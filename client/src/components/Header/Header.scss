@@ -28,6 +28,10 @@
     &__nav-list-item {
         color: $primary-text-color;
 
+        &:hover {
+            text-decoration: underline;
+        }
+
         @include desktop {
             @include desktopBody;
         }
