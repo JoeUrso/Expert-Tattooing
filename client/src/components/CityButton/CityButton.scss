@@ -4,10 +4,16 @@
 @use "../../styles/partials/variables" as *;
 
 .city-button {
-    background-color: $secondary-color;
-    border-radius: 25%;
+    background-color: $accent-color;
+    border: 0.125rem solid $primary-color;
+    border-radius: 0.3125rem;
     padding: 0.5rem;
-    color: $primary-text-color;
+    color: $secondary-text-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 
     @include desktop {
         @include desktopCTA;
