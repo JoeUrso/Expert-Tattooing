@@ -9,6 +9,7 @@
         "dev": "parcel ./client/src/index.html",
         "typecheck": "tsc --noEmit",
         "build": "parcel build",
+        "serve": "nodemon server.ts",
         "start": "npm -s run build && node dist/backend/index.js"
     },
     "repository": {
