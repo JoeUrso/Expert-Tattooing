@@ -1,9 +1,11 @@
 //TODO You set the main folder at the rootDir in tsconfig, fix if it has issues
+import * as dotenv from "dotenv";
 import express, { Application, NextFunction, Request, Response } from "express";
-
-// Boot express
 const app: Application = express();
-const port = 8000;
+
+// IMPORT FROM ENV
+dotenv.config({ path: __dirname + "/.env" });
+const port = process.env.PORT || 8080;
 
 // Application routing
 app.use("/", (req: Request, res: Response, next: NextFunction) => {
