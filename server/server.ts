@@ -10,11 +10,20 @@ dotenv.config({ path: __dirname + "/.env" });
 const port = process.env.PORT || 8080;
 
 // ENABLE CORS
-app.use(cors());
+const allowedOrigins = process.env.FRONTEND_URL;
+
+const options: cors.CorsOptions = {
+    origin: allowedOrigins,
+};
+
+// Then pass these options to cors:
+app.use(cors(options));
+
+app.use(express.json());
 
 // Application routing
 app.use("/", (req: Request, res: Response) => {
-    res.status(200).send({ data: "Hello from Ornio AS" });
+    res.status(200).send({ data: "Hello World" });
 });
 
 // Start server
