@@ -8,11 +8,7 @@
         "lint": "eslint \"./client/src/**/*.{js,jsx,ts,tsx}\" --quiet",
         "dev": "parcel ./client/src/index.html",
         "typecheck": "tsc --noEmit",
-        "serve": "nodemon ./server/server.ts",
-        "migrate": "knex migrate:latest",
-        "migrate:down": "knex migrate:down",
-        "migrate:rollback": "knex migrate:rollback",
-        "seed": "knex seed:run"
+        "serve": "nodemon ./server/server.ts"
     },
     "repository": {
         "type": "git",
