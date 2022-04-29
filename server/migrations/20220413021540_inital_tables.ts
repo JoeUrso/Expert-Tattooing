@@ -1,5 +1,7 @@
 import { Knex } from "knex";
 
+// TODO Is JSON the proper type for the table column you want to make for hours ie {mon: 12-2. tues:12-4} or should you just make each its own column?
+
 export async function up(knex: Knex): Promise<void> {
     return knex.schema
         .createTable("cities", (table) => {
