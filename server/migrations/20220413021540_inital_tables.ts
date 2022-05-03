@@ -33,6 +33,8 @@ export async function up(knex: Knex): Promise<void> {
         .createTable("artists", (table) => {
             table.increments("id").primary();
             table.string("name").notNullable();
+            table.string("instagram").notNullable();
+            table.jsonb("contact_info").notNullable();
             table
                 .integer("shop_id")
                 .unsigned()
