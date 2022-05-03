@@ -15,8 +15,4 @@ module.exports = {
             charset: "utf8",
         },
     },
-    migrations: {
-        directory: "./server/migrations",
-        extension: "ts",
-    },
 };
