@@ -8,6 +8,9 @@
         "lint": "eslint \"./client/src/**/*.{js,jsx,ts,tsx}\" --quiet",
         "dev": "parcel ./client/src/index.html",
         "typecheck": "tsc --noEmit",
+        "migrate": "knex --knexfile server/knexfile.ts migrate:latest",
+        "migrate:make": "knex --knexfile server/knexfile.ts migrate:make -x ts",
+        "migrate:rollback": "knex --knexfile server/knexfile.ts migrate:rollback",
         "serve": "nodemon ./server/server.ts"
     },
     "repository": {
