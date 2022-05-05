@@ -71,4 +71,28 @@ module.exports = [
         location: "1800 N. Via Negocio #1, Palm Springs, CA 92262",
         instagram: "https://www.instagram.com/ironpalmtattooparlour/",
     },
+    {
+        id: 4,
+        name: "MARY TATTOO",
+        city_id: 1,
+        address: "32 B Anacapa Santa Barbara, CA",
+        contact_info: {
+            phone: "805-859-4804",
+            email: "No shop email, contact artists directly",
+            other: "not available",
+        },
+        website: "https://www.facebook.com/MARY-102680741608033/",
+        hours: {
+            monday: "not available, contact artists directly",
+            tuesday: "not available, contact artists directly",
+            wednesday: "not available, contact artists directly",
+            thursday: "not available, contact artists directly",
+            friday: "not available, contact artists directly",
+            saturday: "not available, contact artists directly",
+            sunday: "not available, contact artists directly",
+        },
+        about: "Private tattoo and art studio of Vanae Rivera.",
+        location: "32 B Anacapa Santa Barbara, CA 93101",
+        instagram: "https://www.instagram.com/marytattoosb/",
+    },
 ];
