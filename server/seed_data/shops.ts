@@ -313,4 +313,28 @@ module.exports = [
         location: "4860 Santa Monica Blvd. Los Angeles, CA 90029",
         instagram: "https://www.instagram.com/st.markstattoo_la/",
     },
+    {
+        id: 14,
+        name: "10 Thousand Foxes Tattoo",
+        city_id: 1,
+        address: "7664 Melrose Ave, Los Angeles, CA 90046, United States",
+        contact_info: {
+            phone: "347-987-4304",
+            email: "10thousandfoxesla@gmail.com",
+            other: "https://www.10thousandfoxestattoo.com/booking-now/",
+        },
+        website: "https://www.10thousandfoxestattoo.com/los-angeles-home/#",
+        hours: {
+            monday: "12:00pm to 9:00pm",
+            tuesday: "12:00pm to 9:00pm",
+            wednesday: "12:00pm to 9:00pm",
+            thursday: "12:00pm to 9:00pm",
+            friday: "12:00pm to 9:00pm",
+            saturday: "12:00pm to 9:00pm",
+            sunday: "12:00pm to 9:00pm",
+        },
+        about: `We are a Los Angeles tattoo studio based in the heart of West Hollywood. We offer custom tattoo designs by our resident artists as well as a rotating roster of international guests. We aim to provide a friendly and comfortable environment for your tattoo experience, because our focus is to be the best tattoo studio in Los Angeles. From the moment you contact us to the hours we spend together on your tattoo; our goal is to collaborate and create unique, exclusive pieces just for you. We can’t wait to hear your ideas and look forward to working with you!`,
+        location: "7664 Melrose Ave, Los Angeles, CA 90046, United States",
+        instagram: "https://www.instagram.com/10thousandfoxestattoola/",
+    },
 ];
