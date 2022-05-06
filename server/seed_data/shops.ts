@@ -361,4 +361,27 @@ module.exports = [
         location: "229 Centre Street, New York, NY 10013",
         instagram: "https://www.instagram.com/senatattoonyc/",
     },
+    {
+        id: 16,
+        name: "Daredevil Tattoo NYC",
+        city_id: 2,
+        address: "141 Division St, Chinatown, NY 10002",
+        contact_info: {
+            phone: "212-533-8303",
+            email: "https://www.daredeviltattoo.com/contact",
+            other: "https://bookedin.com/book/daredevil-tattoo-1",
+        },
+        website: "https://www.daredeviltattoo.com/",
+        hours: {
+            monday: "12:00pm to 8:00pm",
+            tuesday: "12:00pm to 8:00pm",
+            wednesday: "12:00pm to 8:00pm",
+            thursday: "12:00pm to 8:00pm",
+            friday: "12:00pm to 8:00pm",
+            saturday: "12:00pm to 8:00pm",
+            sunday: "12:00pm to 8:00pm",
+        },
+        about: "Daredevil Tattoo opened in 1997 when tattooing was legalized in NYC. We feature several artists working in all different styles of tattooing. We are proud to also showcase a Museum of Tattoo History with a world class collection of tattoo artifacts focusing on the history of tattooing in New York City.",
+        instagram: "https://www.instagram.com/daredeviltattoo/",
+    },
 ];
