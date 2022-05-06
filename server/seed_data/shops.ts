@@ -337,4 +337,28 @@ module.exports = [
         location: "7664 Melrose Ave, Los Angeles, CA 90046, United States",
         instagram: "https://www.instagram.com/10thousandfoxestattoola/",
     },
+    {
+        id: 15,
+        name: "SENA TATTOO",
+        city_id: 2,
+        address: "229 Centre Street, New York, NY 10013",
+        contact_info: {
+            phone: "212-966-5151",
+            email: "appts@senatattoo.com",
+            other: "http://www.senatattoo.com/book-your-tattoo",
+        },
+        website: "http://www.senatattoo.com/",
+        hours: {
+            monday: "Closed",
+            tuesday: "12:00pm to 8:00pm",
+            wednesday: "12:00pm to 8:00pm",
+            thursday: "12:00pm to 8:00pm",
+            friday: "12:00pm to 8:00pm",
+            saturday: "12:00pm to 8:00pm",
+            sunday: "12:00pm to 8:00pm",
+        },
+        about: "SENA TATTOO is a premier New York City tattoo studio specializing in Japanese, Traditional, and Realism tattoo styles and art gallery featuring world renowned artists.",
+        location: "229 Centre Street, New York, NY 10013",
+        instagram: "https://www.instagram.com/senatattoonyc/",
+    },
 ];
