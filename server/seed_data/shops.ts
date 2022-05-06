@@ -192,4 +192,28 @@ module.exports = [
         location: "4644 Hollywood Blvd Los Angeles, CA 90027",
         instagram: "https://www.instagram.com/darkhorse_la/",
     },
+    {
+        id: 9,
+        name: "Port City Tattoo Costa Mesa",
+        city_id: 1,
+        address: "1145 Baker st. #A, Costa Mesa, CA 92626",
+        contact_info: {
+            phone: "714-708-2120",
+            email: "portcitytattoocm@gmail.com",
+            other: "https://www.portcitytattoo.com/contact/",
+        },
+        website: "https://www.portcitytattoo.com/",
+        hours: {
+            monday: "11:00am to 8pm",
+            tuesday: "11:00am to 8pm",
+            wednesday: "11:00am to 8pm",
+            thursday: "11:00am to 8pm",
+            friday: "11:00am to 8pm",
+            saturday: "11:00am to 8pm",
+            sunday: "11:00am to 8pm",
+        },
+        about: "Tailored made tattoos at Long Beach, Costa Mesa, and Santa Ana.",
+        location: "1145 Baker st. #A, Costa Mesa, CA 92626",
+        instagram: "https://www.instagram.com/spidermurphystattoo/",
+    },
 ];
