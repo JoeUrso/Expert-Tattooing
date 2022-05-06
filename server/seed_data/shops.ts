@@ -240,4 +240,28 @@ module.exports = [
         location: "4290 Outer Traffic Circle, Long Beach, CA 90804",
         instagram: "https://www.instagram.com/portcitytattooca/",
     },
+    {
+        id: 11,
+        name: "Port City Tattoo Santa Ana",
+        city_id: 1,
+        address: "419 N. Broadway, Santa Ana, CA 92701",
+        contact_info: {
+            phone: "657-231-6811",
+            email: "portcitysa@gmail.com",
+            other: "https://www.portcitytattoo.com/contact/",
+        },
+        website: "https://www.portcitytattoo.com/",
+        hours: {
+            monday: "11:00am to 8pm",
+            tuesday: "11:00am to 8pm",
+            wednesday: "11:00am to 8pm",
+            thursday: "11:00am to 8pm",
+            friday: "11:00am to 8pm",
+            saturday: "11:00am to 8pm",
+            sunday: "11:00am to 8pm",
+        },
+        about: "Tailored made tattoos at Long Beach, Costa Mesa, and Santa Ana.",
+        location: "419 N. Broadway, Santa Ana, CA 92701",
+        instagram: "https://www.instagram.com/portcitytattooca/",
+    },
 ];
