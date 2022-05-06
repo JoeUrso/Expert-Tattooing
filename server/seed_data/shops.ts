@@ -7,7 +7,7 @@ module.exports = [
         contact_info: {
             phone: "not available",
             email: "email artists directly for appointments",
-            other: "not available",
+            other: "https://enjoytattoosla.com/pages/contact",
         },
         website: "https://enjoytattoosla.com/",
         hours: {
@@ -55,7 +55,7 @@ module.exports = [
         contact_info: {
             phone: "760-898-7292",
             email: "No shop email, please call or contact artists directly",
-            other: "not available",
+            other: "http://ironpalmtattoo.com/contact",
         },
         website: "http://ironpalmtattoo.com/",
         hours: {
@@ -128,7 +128,7 @@ module.exports = [
         contact_info: {
             phone: "714-519-3743",
             email: "No shop email, contact artists directly",
-            other: "not available",
+            other: "https://www.roselandtattoo.com/contact",
         },
         website: "https://www.roselandtattoo.com/",
         hours: {
@@ -263,6 +263,31 @@ module.exports = [
         about: "Tailored made tattoos at Long Beach, Costa Mesa, and Santa Ana.",
         location: "419 N. Broadway, Santa Ana, CA 92701",
         instagram: "https://www.instagram.com/portcitytattooca/",
+    },
+    {
+        id: 12,
+        name: "Spotlight Tattoo",
+        city_id: 1,
+        address: "5859 Melrose Ave, Los Angeles, CA, United States",
+        contact_info: {
+            phone: "323-871-1084",
+            email: "charlierobertstattoo@gmail.com",
+            other: "not available",
+        },
+        website:
+            "https://www.facebook.com/people/Bob-Charlie-Roberts-Spotlight-Tattoo/100063654006800/",
+        hours: {
+            monday: "1:00pm to 9pm",
+            tuesday: "1:00pm to 9pm",
+            wednesday: "1:00pm to 9pm",
+            thursday: "1:00pm to 9pm",
+            friday: "1:00pm to 9pm",
+            saturday: "1:00pm to 9pm",
+            sunday: "1:00pm to 9pm",
+        },
+        about: "Bob & Charlie Roberts’ World Famous Spotlight Tattoo. Est. 1982.",
+        location: "5859 Melrose Ave, Los Angeles, CA",
+        instagram: "https://www.instagram.com/worldfamousspotlighttattoo/",
     },
     {
         id: 12,
