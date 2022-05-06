@@ -168,4 +168,28 @@ module.exports = [
         location: "8424 W Santa Monica Blvd West Hollywood, CA 90069",
         instagram: "https://www.instagram.com/thstpl/",
     },
+    {
+        id: 8,
+        name: "Dark Horse Tattoo Los Angeles",
+        city_id: 1,
+        address: "4644 Hollywood Blvd Los Angeles, CA 90027",
+        contact_info: {
+            phone: "323-665-7345",
+            email: "darkhorsetattoola@gmail.com",
+            other: "https://www.darkhorsetattoolosangeles.com/contact-us",
+        },
+        website: "https://www.darkhorsetattoolosangeles.com/",
+        hours: {
+            monday: "12:00pm to 9pm",
+            tuesday: "12:00pm to 9pm",
+            wednesday: "12:00pm to 9pm",
+            thursday: "12:00pm to 9pm",
+            friday: "12:00pm to 9pm",
+            saturday: "12:00pm to 9pm",
+            sunday: "12:00pm to 9pm",
+        },
+        about: "Bryan Burk opened Dark Horse Tattoo in 2010 with the intention of creating a non-intimidating relaxed atmosphere while adhering to the highest levels of craftsmanship and artistry. Bryan was soon joined by Adam Warmerdam, their stylish aesthetic and fresh approach to American and traditional Japanese tattooing quickly established them as one of the most sought after shops in the city.",
+        location: "4644 Hollywood Blvd Los Angeles, CA 90027",
+        instagram: "https://www.instagram.com/darkhorse_la/",
+    },
 ];
