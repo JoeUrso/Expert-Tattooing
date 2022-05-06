@@ -409,4 +409,28 @@ module.exports = [
         location: "51 West 14th St. Suite 2R New York, NY 10011",
         instagram: "https://www.instagram.com/risingdragontattoos/",
     },
+    {
+        id: 18,
+        name: "Hand of Glory Tattoo",
+        city_id: 2,
+        address: "465A 7th Ave, Brooklyn, NY 11215",
+        contact_info: {
+            phone: "718-832-5020",
+            email: "handofglorytattoo@gmail.com",
+            other: "Not available",
+        },
+        website: "https://www.handofglorytattoo.com/",
+        hours: {
+            monday: "12:00pm to 8:00pm",
+            tuesday: "12:00pm to 8:00pm",
+            wednesday: "closed",
+            thursday: "12:00pm to 8:00pm",
+            friday: "12:00pm to 8:00pm",
+            saturday: "12:00pm to 8:00pm",
+            sunday: "12:00pm to 8:00pm",
+        },
+        about: "Hand of Glory Tattoo Shop is the premier custom Brooklyn tattoo studio since 2001. Founded by tattoo artist Craig Rodriguez and his wife/partner Anna Sea, Hand of Glory Tattoo follows in the footsteps of a long tradition deeply embedded in the heritage and lore of New York City historical tattooing. Craig started tattooing in 1994, and was in the very first group of tattooers to acquire their NYC tattoo license when it became legalized in 1997. He and the tattoo artists at Hand of Glory Tattoo work and operate in the spirit of the artistic inheritance of legends like Brooklyn Blackie and Brooklyn Joe Lieber. Though the wild frontier days of this art are long behind us, and tattooing has matured and elevated to heights no one imagined possible, at Hand of Glory Tattoo we merge the colorful tradition of the tattoo arts at the turn of the century with world class modern standards and execution.",
+        location: "465A 7th Ave, Brooklyn, NY 11215",
+        instagram: "https://www.instagram.com/handofglorytattoo/",
+    },
 ];
