@@ -433,4 +433,28 @@ module.exports = [
         location: "465A 7th Ave, Brooklyn, NY 11215",
         instagram: "https://www.instagram.com/handofglorytattoo/",
     },
+    {
+        id: 19,
+        name: "Smith Street Tattoo Parlour",
+        city_id: 2,
+        address: "411 SMITH ST, BROOKLYN, NY 11231",
+        contact_info: {
+            phone: "718-643-0463",
+            email: "sstpinfo@gmail.com",
+            other: "Not available",
+        },
+        website: "https://www.sstp.store/",
+        hours: {
+            monday: "11:00pm to 8:00pm",
+            tuesday: "11:00pm to 8:00pm",
+            wednesday: "11:00pm to 8:00pm",
+            thursday: "11:00pm to 8:00pm",
+            friday: "11:00pm to 8:00pm",
+            saturday: "11:00pm to 8:00pm",
+            sunday: "11:00pm to 8:00pm",
+        },
+        about: "Carroll Gardens Brooklyn est.2008. The finest tattoo shop in America (this claim is being made by the creator of this website, not the shop itself).",
+        location: "411 SMITH ST, BROOKLYN, NY 11231",
+        instagram: "https://www.instagram.com/smithstreettattooparlour/",
+    },
 ];
