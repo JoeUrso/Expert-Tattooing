@@ -626,4 +626,28 @@ module.exports = [
         location: "2188 Bowery 2nd Floor New York, NY 10012",
         instagram: "https://www.instagram.com/kingsavetattoo/",
     },
+    {
+        id: 27,
+        name: "Electric Anvil Tattoo",
+        city_id: 2,
+        address: "648 FRANKLIN AVENUE, BROOKLYN, NY, 11238",
+        contact_info: {
+            phone: "718-636-6360",
+            email: "kINFO@ELECTRICANVILTATTOO.COM",
+            other: "https://www.electricanviltattoo.com/contact",
+        },
+        website: "https://www.electricanviltattoo.com/",
+        hours: {
+            monday: "12:00pm to 8:00pm",
+            tuesday: "12:00pm to 8:00pm",
+            wednesday: "12:00pm to 8:00pm",
+            thursday: "12:00pm to 8:00pm",
+            friday: "12:00pm to 8:00pm",
+            saturday: "12:00pm to 8:00pm",
+            sunday: "12:00pm to 8:00pm",
+        },
+        about: "BEST TATTOO SHOP IN NEW YORK CITY - TIMEOUT MAGAZINE ",
+        location: "648 FRANKLIN AVENUE, BROOKLYN, NY, 11238",
+        instagram: "https://www.instagram.com/electricanviltattoo/",
+    },
 ];
