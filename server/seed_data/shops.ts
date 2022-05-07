@@ -602,4 +602,28 @@ module.exports = [
         location: "21 First Avenue, New York, NY 10003",
         instagram: "https://www.instagram.com/finelinetattoonyc/",
     },
+    {
+        id: 26,
+        name: "Kings Avenue Tattoo",
+        city_id: 2,
+        address: "2188 Bowery 2nd Floor New York, NY 10012",
+        contact_info: {
+            phone: "212-431-5464",
+            email: "kingsavetattoonyc@gmail.com",
+            other: "Not available",
+        },
+        website: "https://kingsavetattoo.com/locations/manhattan/",
+        hours: {
+            monday: "11:00pm to 8:00pm",
+            tuesday: "11:00pm to 8:00pm",
+            wednesday: "11:00pm to 8:00pm",
+            thursday: "11:00pm to 8:00pm",
+            friday: "11:00pm to 8:00pm",
+            saturday: "11:00pm to 8:00pm",
+            sunday: "12:00pm to 6:00pm",
+        },
+        about: "Kings Avenue Tattoo NYC opened its doors in April 2011 on the street that played a formative role in tattoo history, The Bowery, which overlooks some of Manhattan’s most prominent cultural centers.",
+        location: "2188 Bowery 2nd Floor New York, NY 10012",
+        instagram: "https://www.instagram.com/kingsavetattoo/",
+    },
 ];
