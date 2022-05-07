@@ -457,4 +457,29 @@ module.exports = [
         location: "411 SMITH ST, BROOKLYN, NY 11231",
         instagram: "https://www.instagram.com/smithstreettattooparlour/",
     },
+    {
+        id: 20,
+        name: "Greenpoint Tattoo Company",
+        city_id: 2,
+        address: "131 Meserole Ave New York, NY 11222",
+        contact_info: {
+            phone: "718-349-2025",
+            email: "greenpointtattooco@gmail.com",
+            other: "Not available",
+        },
+        website:
+            "https://www.facebook.com/Greenpoint-Tattoo-Company-233805686665102/",
+        hours: {
+            monday: "12:00pm to 8:00pm",
+            tuesday: "12:00pm to 8:00pm",
+            wednesday: "12:00pm to 8:00pm",
+            thursday: "12:00pm to 8:00pm",
+            friday: "12:00pm to 8:00pm",
+            saturday: "12:00pm to 8:00pm",
+            sunday: "12:00pm to 8:00pm",
+        },
+        about: "John Reardon / Jason Ochoa/ Chuck Donoghue / Franco Maldonado / Ryan Mettz / Will Sheldon / Matt Bivetto. Walk-ins welcome",
+        location: "131 Meserole Ave New York, NY 11222",
+        instagram: "https://www.instagram.com/greenpointtattooco/",
+    },
 ];
