@@ -554,4 +554,28 @@ module.exports = [
         location: "1047 Manhattan Ave, Brooklyn, NY 11222",
         instagram: "https://www.instagram.com/eastrivertattoo/",
     },
+    {
+        id: 24,
+        name: "Allied Tattoo",
+        city_id: 2,
+        address: "48 1/2 Grattan St. Brooklyn, NY 11237",
+        contact_info: {
+            phone: "347-725-4861",
+            email: "alliedtattoo@gmail.com",
+            other: "Not available",
+        },
+        website: "http://alliedtattoo.com/index.html",
+        hours: {
+            monday: "12:00pm to 10:00pm",
+            tuesday: "12:00pm to 10:00pm",
+            wednesday: "12:00pm to 10:00pm",
+            thursday: "12:00pm to 10:00pm",
+            friday: "12:00pm to 10:00pm",
+            saturday: "12:00pm to 10:00pm",
+            sunday: "12:00pm to 10:00pm",
+        },
+        about: "Allied Tattoo was founded by Andy Perez in June of 2015. A long time NYC tattooer having worked at several mainstay shops throughout the city before opening Allied. Joining Andy is a stellar crew comprised of Ian Wiedrick, Britney Goodman, John Lemon, Will Dozer and Chris Kast, along with some of the most helpful and attentive shop assistants in the business. The shop aims to bring a high standard of tattooing to the previously under-served Bushwick area, coupled with a relaxed neighborhood atmosphere in a warm inviting space built by the owners from the ground up.",
+        location: "48 1/2 Grattan St. Brooklyn, NY 11237",
+        instagram: "https://www.instagram.com/allied_tattoo/",
+    },
 ];
