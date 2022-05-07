@@ -578,4 +578,28 @@ module.exports = [
         location: "48 1/2 Grattan St. Brooklyn, NY 11237",
         instagram: "https://www.instagram.com/allied_tattoo/",
     },
+    {
+        id: 25,
+        name: "Fineline Tattoo",
+        city_id: 2,
+        address: "21 First Avenue, New York, NY 10003",
+        contact_info: {
+            phone: "212-673-5145",
+            email: "info@finelinetattoo.com",
+            other: "http://finelinetattoo.com/appointments/",
+        },
+        website: "http://finelinetattoo.com/",
+        hours: {
+            monday: "12:00pm to 6:00pm",
+            tuesday: "12:00pm to 6:00pm",
+            wednesday: "12:00pm to 6:00pm",
+            thursday: "12:00pm to 6:00pm",
+            friday: "12:00pm to 6:00pm",
+            saturday: "12:00pm to 6:00pm",
+            sunday: "closed",
+        },
+        about: "Born in the midst of the underground atmosphere of New York City’s ban on tattooing (which existed from the early 1960s until the late 1990s), Fineline Tattoo NYC worked to establish itself from 1976 on as one of the very few underground / illegal / appointment-only tattoo parlors that offered professionalism in artistry, craftsmanship, and hygiene. Fineline was originally operated out of a private loft, on the infamous Bowery in the heart of the East Village, until 1997 when the city finally lifted the 30 year ban on tattooing. Fineline Tattoo NYC was relocated to the First Avenue storefront where it continues to thrive to this day. Gone is the paranoia and stigma of operating an illegal business, but still intact is the friendly atmosphere and professionalism that the legions of loyal customers have come to expect from Fineline over the years. Amidst the trend towards boutique and attitude-heavy parlors, Fineline is a welcome throwback to the old school, no-nonsense street shops of days gone by. Come on down and see why Fineline has been the go-to shop for those in the know on the Lower East Side for nearly 40 years now.",
+        location: "21 First Avenue, New York, NY 10003",
+        instagram: "https://www.instagram.com/finelinetattoonyc/",
+    },
 ];
