@@ -674,4 +674,28 @@ module.exports = [
         location: "1223 Rosewood Ave. Austin, TX 78723",
         instagram: "https://www.instagram.com/blackdaggertattooatx/",
     },
+    {
+        id: 29,
+        name: "Southside Tattoo",
+        city_id: 3,
+        address: "1313 S. Congress Ave. Austin, TX 78704",
+        contact_info: {
+            phone: "512-444-1313",
+            email: "southsidetattooatx@gmail.com",
+            other: "https://southsidetattoos.com/contact",
+        },
+        website: "https://southsidetattoos.com/",
+        hours: {
+            monday: "12:00pm to 10:00pm",
+            tuesday: "12:00pm to 10:00pm",
+            wednesday: "12:00pm to 10:00pm",
+            thursday: "12:00pm to 10:00pm",
+            friday: "12:00pm to 10:00pm",
+            saturday: "12:00pm to 10:00pm",
+            sunday: "12:00pm to 10:00pm",
+        },
+        about: "Southside is known for having talented, versatile tattoo artists and a vibe that is friendly and welcoming to all. Tattoos take time (even though you're 'just going to get one'...) so you might as well spend it with good, interesting folks who are happy to have you. Shop owners Bart Willis and Chris Gunn have carefully selected the most talented and friendly artists to represent Southside, and between them they can produce any style you want. They work collaboratively with you to make each tattoo a unique piece of art that is flattering and ages gracefully. Look through our Tattooer pages for a glimpse into the variety of styles and talent available to you.",
+        location: "1223 Rosewood Ave. Austin, TX 78723",
+        instagram: "1313 S. Congress Ave. Austin, TX 78704",
+    },
 ];
