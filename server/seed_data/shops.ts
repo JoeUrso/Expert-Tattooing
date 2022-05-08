@@ -722,4 +722,28 @@ module.exports = [
         location: "1309 EAST 4TH STREET AUSTIN, TX, 78702",
         instagram: "https://www.instagram.com/resurrection_tattoo_atx/",
     },
+    {
+        id: 31,
+        name: "Gully Cat Tattoo",
+        city_id: 3,
+        address: "2006 South 1st St. Austin, Texas 78704",
+        contact_info: {
+            phone: "512-440-7800",
+            email: "info@gullycattattoo.com",
+            other: "https://gullycattattoo.com/contact.php",
+        },
+        website: "https://gullycattattoo.com/index.html",
+        hours: {
+            monday: "11:30am to 7:30pm",
+            tuesday: "11:30am to 7:30pm",
+            wednesday: "11:30am to 7:30pm",
+            thursday: "11:30am to 7:30pm",
+            friday: "11:30am to 7:30pm",
+            saturday: "11:30am to 7:30pm",
+            sunday: "12:00pm to 6:00pm",
+        },
+        about: "Gully Cat was founded in 2003 by long-time native Austin tattooer Mike Terrell with the goal of creating a friendly, stress-free environment for first-time tattoo customers as well as a shop for the more experienced collectors. Gully Cat prides itself on being one of the most unique and attractive shops in Austin, Texas.",
+        location: "2006 South 1st St. Austin, Texas 78704",
+        instagram: "https://www.instagram.com/gullycattattoo/",
+    },
 ];
