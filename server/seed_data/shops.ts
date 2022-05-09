@@ -770,4 +770,28 @@ module.exports = [
         location: "514 E. Sixth Street Austin, Texas",
         instagram: "https://www.instagram.com/allsaintsatx/",
     },
+    {
+        id: 33,
+        name: "All Saints Tattoo North",
+        city_id: 3,
+        address: "8303 BURNET ROAD Ste. 2 AUSTIN, TEXAS 78757",
+        contact_info: {
+            phone: "512-573-8786",
+            email: "info@allsaintstattoo.com",
+            other: "https://www.allsaintstattoo.com/northstudio",
+        },
+        website: "https://www.allsaintstattoo.com/",
+        hours: {
+            monday: "Not available",
+            tuesday: "Not available",
+            wednesday: "Not available",
+            thursday: "Not available",
+            friday: "Not available",
+            saturday: "Not available",
+            sunday: "Not available",
+        },
+        about: "All Saints Tattoo prides itself on having the most talented tattoo artists and the friendliest tattoo artists in the Great State of Texas! Talented and friendly? Hells yes!! We do walk-in tattoos all day everyday and we do walk-in tattoos only on the weekends. Come on in and get the best tattoo in Austin",
+        location: "8303 BURNET ROAD Ste. 2 AUSTIN, TEXAS 78757",
+        instagram: "https://www.instagram.com/allsaintsatx/",
+    },
 ];
