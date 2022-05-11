@@ -23,18 +23,3 @@ class CitiesController {
 }
 
 export { CitiesController };
-
-// TODO this was an attempt to do it the way you did in bootcamp, delete?
-// const knex = require("knex")(require("../../knexfile").development);
-// import { Request, Response } from "express";
-
-// // SEND CITIES TABLE
-// exports.index = (_req: Request, res: Response) => {
-//     knex("cities")
-//         .then((data: Cities) => {
-//             res.status(200).json(data);
-//         })
-//         .catch((err: string) =>
-//             res.status(400).send(`Error retrieving rappers: ${err}`)
-//         );
-// };
