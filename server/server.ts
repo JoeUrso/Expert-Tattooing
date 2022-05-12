@@ -2,6 +2,8 @@
 import cors from "cors";
 import * as dotenv from "dotenv";
 import express, { Application, Request, Response } from "express";
+import citiesRoutes from "./routes/citiesRoutes";
+import shopsRoutes from "./routes/shopsRoutes";
 
 const app: Application = express();
 
@@ -18,6 +20,10 @@ const options: cors.CorsOptions = {
 
 app.use(cors(options));
 app.use(express.json());
+
+// Routes
+app.use("/cities", citiesRoutes);
+app.use("/shops", shopsRoutes);
 
 // Application routing
 app.use("/", (req: Request, res: Response) => {
