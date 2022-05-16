@@ -3,6 +3,7 @@ import CityButton from "../../components/CityButton/CityButton";
 import "./HomePage.scss";
 
 export default function HomePage() {
+    // TODO use hooks and axios to get cities info
     const cities = ["New York", "Austin", "Los Angeles"];
 
     return (
